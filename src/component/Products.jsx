@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+
+import DashboardStatsGrid from "./DashboardStartGrid";
 export default function Products(){
     return( 
      <div>
-     This is Products
-     <Link to= '/'><p className="underline">Go to Dashboard</p></Link>
+     <DashboardStatsGrid></DashboardStatsGrid>
+     
      </div>
      
     )

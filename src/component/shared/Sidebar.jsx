@@ -9,7 +9,7 @@ export default function Sidebar() {
   return ( 
   //  first div is the parent div
 
-   <div className='flex flex-col w-60 p-3  bg-neutral-900 text-white'>
+   <div className='flex flex-col w-50 p-3  bg-neutral-900 text-white h-full'>
 {/* icondiv start*/} <div className='flex items-center gap-2 px-1 py-3'> 
                       <FcBullish fontSize={24}/>
                         <span className='text-neutral-100'>Open Shop</span>
