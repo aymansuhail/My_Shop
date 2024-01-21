@@ -7,13 +7,13 @@ export default function Dashboard(){
    return( 
       
         
-          <div className="flex gap-4 flex-col">
+          <div className="flex gap-4 flex-col  ">
           <DashboardStartGrid/>
           <div className="flex flex-row gap-4 w-full"> 
           <TransactionChart/>
           <BuyerProfilePieChart/>
           </div>
-          <RecentOrders/>
+          <RecentOrders />
           </div>
    
    )
