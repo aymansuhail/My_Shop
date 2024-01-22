@@ -3,6 +3,7 @@ import DashboardStartGrid from "./DashboardStartGrid";
 import TransactionChart from "./TransactionChart";
 import BuyerProfilePieChart from './BuyerProfilePieChart';
 import RecentOrders from "./RecentOrders";
+import PopularProducts from "./PopularProducts";
 export default function Dashboard(){
    return( 
       
@@ -13,8 +14,11 @@ export default function Dashboard(){
           <TransactionChart/>
           <BuyerProfilePieChart/>
           </div>
-          <RecentOrders />
-          </div>
+               <div className="flex"> 
+               <RecentOrders />
+               <PopularProducts/>
+               </div>
+             </div>
    
    )
 }

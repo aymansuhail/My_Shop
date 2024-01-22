@@ -10,7 +10,7 @@ export default function Layout() {
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header className="sticky top-0 bg-white z-10" />
 
-        <div className="flex-1 overflow-y-auto p-4">
+        <div className="flex-1 overflow-auto p-4">
           <Outlet />
         </div>
       </div>
